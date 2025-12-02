@@ -161,6 +161,23 @@ local keymaps = {
     ["<S-Tab>"] = "Toggle auto-apply mode for file changes",
     ["<C-x>"] = "Open the current prompt in an external editor",
   },
+  dekacode = {
+    ["<Esc>"] = "Close current dialog or suggestion",
+    ["<C-c>"] = "Cancel current action or generation (press twice to exit Dekacode CLI)",
+    ["<C-d>"] = "Exit the Dekacode CLI (press twice to confirm exit)",
+    ["<C-l>"] = "Clear the screen output",
+    ["<C-o>"] = "Toggle debug console view",
+    ["<C-s>"] = "Prevent output truncation (allow long responses to print fully)",
+    ["<C-t>"] = "Show or hide tool descriptions in output",
+    ["<C-y>"] = "Toggle YOLO mode (auto-approve all tool actions)",
+    ["!"] = "Enter shell mode to run a command (output is captured into chat)",
+    ["\\<CR>"] = "Insert a line break in the prompt without sending",
+    ["<Up>"] = "Retrieve previous command from history",
+    ["<Down>"] = "Retrieve next command from history",
+    ["<Tab>"] = "Accept or complete the current suggestion",
+    ["<S-Tab>"] = "Toggle auto-apply mode for file changes",
+    ["<C-x>"] = "Open the current prompt in an external editor",
+  },
 }
 
 local all = {} ---@type table<string, string>
